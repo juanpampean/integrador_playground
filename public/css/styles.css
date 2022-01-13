@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family:serif;
+    font-size:50px;
+    font-weight:300;
+}
+
+p {
+    font-size:17px;
+    line-height: 24px;
+}
+
+.parrafo-destacado {
+    color:salmon;
+    font-size:30px;
+    line-height:38px;
+}
+
+strong {
+    color:green
+}
+p strong {
+    color:green;
+    font-style:italic;
+}
