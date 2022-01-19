@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box
+}
 body {
     background-color: lightblue;
     font-family: 'Roboto', sans-serif;
@@ -27,3 +30,49 @@ p strong {
     color:green;
     font-style:italic;
 }
+
+.contenedor01 {
+    max-width: 1200px;
+    width:90%;  
+    padding:15px;
+    border:solid 5px black;
+    background-color:green;
+    margin:auto
+
+}
+.oculto {
+    display:none
+}
+
+.contenedor02 {
+    width:90vw;  
+    padding:15px;
+    border:solid 5px red;
+    background-color:orange;
+
+}
+
+@media (min-width: 570px) {
+    .contenedor01 {
+
+        border:solid 5px black;
+        background-color:#000000;
+        color:#ffffff; 
+    
+    }
+}
+
+@media (min-width: 900px) {
+    .contenedor01 {
+        color:#ff0000;    
+    }
+    .oculto {
+        display:block
+    }
+}
+/* Breakpoints para media query
+   576
+   768
+   992
+   1200
+*/
